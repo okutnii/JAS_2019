@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/tv_genie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/to_genie"
+        android:textColor="@color/colorMainText"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/question"
+        android:background="@drawable/edit_text_genie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_genie"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:focusable="true"/>
+
+    <Button
+        android:id="@+id/came_to_genie"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_below="@+id/question"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/rounded_button_black"
+        android:text="@string/appeal" />
+</RelativeLayout>

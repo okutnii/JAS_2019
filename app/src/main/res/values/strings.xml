@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Gofer-app</string>
+    <string name="close">Close</string>
+    <string name="create_order_title">Create</string>
+    <string name="action_share">Share</string>
+    <string name="nav_open_drawer">Open Navigation Drawer</string>
+    <string name="nav_close_drawer">Close Navigation Drawer</string>
+    <string name="plan_empty_view">Натисніть на кнопку \'Додати\' для того, щоб створити План</string>
+    <string name="scheduler_empty_view">Натисніть кнопку \'Додати\', щоб створити Пункт Дня</string>
+    <string name="voice">Звук  </string>
+    <string name="plans">Плани</string>
+    <string name="scheduler">Розпорядок</string>
+    <string name="notes">Нотатки</string>
+    <string name="others">Інше</string>
+    <string name="options">Написати листа</string>
+    <string name="for_user">Для користувача</string>
+    <string name="main">Головна</string>
+    <string name="genie">Звернутися до вищих сил</string>
+    <string name="to_genie">Запишіть Ваше питання до вищих сил:</string>
+    <string name="appeal">Звернутися</string>
+    <string name="enable_voice">Включити звук для цього пункту?</string>
+    <string name="descr_day_point">Опишіть Пункт Дня</string>
+    <string name="q_enable_voice">Включити оповіщення для цього пункту?</string>
+    <string name="name">Назва</string>
+    <string name="to_describe_essence">Коротко опишіть суть вашого плану:</string>
+    <string name="to_describe_by_points">Описуйте ваш план по пунктам (пункти додаються в меню знизу):</string>
+    <string name="essence_of_plan">Суть плану…</string>
+    <string name="choose_date">Обрати дату</string>
+    <string name="notes_semicolon">Нотатки:</string>
+    <string name="date_of_note">Дата цього запису:</string>
+    <string name="text_opt1">\t Якщо на вашому телефоні не виводяться оповіщення, тоді:</string>
+    <string name="text_opt2">\t 1. Зайдіть у \"Налаштування\" -> \"Мобільні додатки\" -> \"Gofer-app\" \n \t 2. Надайте дозвіл на роботу в фоновому режимі </string>
+    <string name="text_opt3">\t </string>
+    <string name="feedback">\t При виникненні запитань - напишіть листа на email: Розділ \"Написати листа\" у висовному меню</string>
+    <string name="tv_info">\t Мобільний додаток створено спеціально як Курсовий проєкт</string>
+
+</resources>

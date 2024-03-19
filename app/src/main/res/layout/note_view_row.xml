@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp">
+
+
+    <TextView
+        android:id="@+id/timeToView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="16:55"
+        android:typeface="monospace"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/imageStarred"
+        app:layout_constraintStart_toEndOf="@+id/imageStarred"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/data_to_view"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:text=" 07-13 13:02:11.207 11359-11404/com.example.multitool D/OpenGLRenderer: endAllStagingAnimators on 0xa1634300 (RippleDrawable) with handle 0xae4fc920 07-13 13:02:12.224 11359-11404/com.example.multitool D/EGL_emulation: eglMakeCurrent: 0xae4d4960: ver 3 1 (tinfo 0xae4fc590) 07-13 13:02:12.237 11359-11404/com.example.multitool D/EGL_emulation: eglMakeCurrent: 0xae4d4960: ver 3 1 (tinfo 0xae4fc590)"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/timeToView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/timeToView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageStarred"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="19dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+</RelativeLayout>

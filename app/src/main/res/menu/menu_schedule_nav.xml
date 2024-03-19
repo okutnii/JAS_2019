@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_home"
+            android:title="@string/main" />
+        <item
+            android:id="@+id/nav_scheduler"
+            android:icon="@drawable/ic_important_time"
+            android:title="@string/scheduler"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_planning"
+            android:icon="@drawable/ic_plans"
+            android:title="@string/plans"
+            />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_notes"
+            android:title="@string/notes" />
+
+    </group>
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/nav_options"
+                android:icon="@drawable/ic_options"
+                android:title="@string/options"/>
+        </menu>
+    </item>
+</menu>
